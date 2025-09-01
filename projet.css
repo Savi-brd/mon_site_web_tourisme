@@ -1,0 +1,38 @@
+#header{background-image: url('image/SABAH.jpg');
+    background-repeat: no-repeat;
+    height:100vh;
+     background-position: center;
+      background-size: cover;
+      font-family: Arial,sans-serif;
+    
+}
+
+#id1{
+    padding: 160px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 30px;
+}
+ul { 
+list-style-type: none; 
+margin: 0; 
+padding: 0; 
+overflow: hidden; 
+background-color: rgb(84, 188, 219);
+} 
+li { 
+    float: left;
+}
+li a { 
+display: white; 
+color: white; 
+text-align: center; 
+padding: 20px; 
+text-decoration: none; 
+} 
+li a:hover { 
+background-color: #111111; 
+} 
+
+       

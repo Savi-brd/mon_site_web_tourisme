@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flex-sites{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .flex-sites figure{
+        width: 300px;
+        text-align: center;
+        overflow: hidden;
+        border: 1px solid;
+        border-radius: 10px;
+
+    }
+    .flex-sites figure:hover{
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    .flex-sites img{
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+    body{
+        display: flex;
+         align-items: center;  
+        justify-content: center;  
+        flex-direction: column; 
+        min-height: 100vh;
+        margin: 0;       
+    }
+    article{
+        animation: mymove 5s infinite;
+    }
+    @keyframes mymove{
+        50%{font-size: 40px;}
+    }
+    
+    
+
+</style>
+<body>
+   <article>
+                <h2 style="color:rgb(35, 34, 34);">SITES  EMBLEMATIQUS</h2>
+                <figure>
+                <img src="image/sabah nktt.avif" alt="Photo de Nouakchott">
+                <FIgcaption style="color: black;">HOTEL SABAH</FIgcaption>
+                </figure>
+            </article>
+
+</body>
+</html>
